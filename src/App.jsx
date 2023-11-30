@@ -18,17 +18,14 @@ function App() {
       </div>
       <h1>Práctica en el manejo de github</h1>
       <h2> en esta línea  se va practicar lo aprendido en GitHub</h2>
+      <h2> Rama 1 </h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </>
   )
 }
